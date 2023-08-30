@@ -1,4 +1,4 @@
-# bioinfo_scripts_Bash
+# Bash Scripts for Bioinformatics
 Usefull script for biological data cleaning and parsing.
 
 ## WolfPsort_summary.sh
