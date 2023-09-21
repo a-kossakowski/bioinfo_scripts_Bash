@@ -4,7 +4,7 @@ Useful scripts for biological data cleaning and parsing.
 
 ## Scripts
 
-### `WolfPsort_summary.sh`
+### `WoLFPSort_summary.sh`
 
 Based on the results from WolfPsort, a software dedicated to protein subcellular localization prediction via nearest neighbor method, it summarizes predictions for each protein in a given set.
 
