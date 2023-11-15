@@ -9,5 +9,5 @@ while read id; do
         print ">"$1
         for(i=2;i<=NF;i++) print $i
     }
-    ' abc
-done < ID_file > FASTA_file
+    ' FASTA_input
+done < ID_file > FASTA_output
