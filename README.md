@@ -4,6 +4,10 @@ Useful scripts for biological data cleaning and parsing.
 
 ## Scripts
 
+### `ret_seqs_from_IDs.sh`
+
+From a given list of '\n'-separated IDs, retrives them from a .fasta file and saves into a new file.
+
 ### `WoLFPSort_summary.sh`
 
 Based on the results from WoLFPSort, a software dedicated to protein subcellular localization prediction via nearest neighbor method, it summarizes predictions for each protein in a given set.
