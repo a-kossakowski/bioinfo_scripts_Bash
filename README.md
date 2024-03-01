@@ -1,6 +1,6 @@
 # Protein Sequence Analyzer Project
 
-This GitHub project is a collection of Bash scripts designed for intermediate level bioinformatics analysis, specifically in the field of proteomics. These scripts facilitate various tasks such as motif identification, sequence manipulation, and statistical analysis of protein sequences.
+This GitHub project is a collection of Bash scripts designed for intermediate level bioinformatics analysis. These scripts facilitate various tasks such as motif identification, sequence manipulation, and basic statistical analysis of protein sequences.
 
 ## Scripts Description
 
