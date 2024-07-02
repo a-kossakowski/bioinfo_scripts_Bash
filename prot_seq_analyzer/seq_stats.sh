@@ -8,7 +8,7 @@ fi
 
 sequence_file=$1
 
-# calculate sequence length and average length
+# calculate seq length and avg length
 echo "Sequence Statistics:"
 awk '/^>/ {
         if (seq) {
@@ -29,7 +29,7 @@ awk '/^>/ {
         printf "Average Length: %d\n", total_length / sequence_count
     }' $sequence_file
 
-# count number of sequences
+# count seqs
 seq_count=$(grep -c "^>" $sequence_file)
 echo "Sequence count: $seq_count"
 
