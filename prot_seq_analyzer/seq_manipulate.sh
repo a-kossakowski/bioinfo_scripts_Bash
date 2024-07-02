@@ -1,5 +1,5 @@
 #!/bin/bash
-# prot_manipulate.sh: performs basic manipulations on protein sequences
+# seq_manipulate.sh: performs basic manipulations on protein sequences
 
 if [ $# -lt 2 ]; then
     echo "Usage: $0 <sequence_file> <action>"
@@ -12,7 +12,7 @@ action=$2
 
 case $action in
     to_low)
-        # Convert sequences to lowercase
+        # convert seqs to lowercase
         awk '/^>/ {if (seq) print tolower(seq); print; seq=""} !/^>/ {seq=seq""$0} END {print tolower(seq)}' $sequence_file
         ;;
     *)
